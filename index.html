@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us</title>
+  <link rel="icon" href="./images/icon.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <nav class="navBar">
+            <a href="#"><img src="./images/guviLogo.png" alt="logo"></a>
+            <div class="nav_right">
+                <div class="nav_item"><a href="">Courses</a></div>
+                <div class="nav_dropDown nav_item">
+                    <button class="dropDown_btn">LIVE Classes<i class="fa fa-solid fa-caret-down"></i></button>
+                    <div class="dropDownContent">
+                        <a href="">
+                            <dl>
+                                <dt>IITM Pravartak certified Full Stack Development Course with AI Tools</dt>
+                                <dd>Learn JS,HTML,CSS,Java and more</dd>
+                            </dl>
+                        </a>
+                        <a href="">
+                            <dl>
+                                <dt>IIT-M Pravartak Certification in Advanced Programming</dt>
+                                <dd>Learn Python,ML,NLP and more</dd>
+                            </dl>
+                        </a>
+                        <a href="">
+                            <dl>
+                                <dt>Automation Testing With Selenium</dt>
+                                <dd>Learn Python,Java, Testing and more</dd>
+                            </dl>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav_dropDown nav_item">
+                    <button class="dropDown_btn">Practice<i class="fa fa-solid fa-caret-down"></i></button>
+                    <div class="dropDownContent">
+                        <a href="">
+                            <dl>
+                                <dt>Codekata</dt>
+                                <dd>Practice your coding skills</dd>
+                            </dl>
+                        </a>
+                        <a href="">
+                            <dl>
+                                <dt>Webkata</dt>
+                                <dd>Build basic frontend, backend skills</dd>
+                            </dl>
+                        </a>
+                        <a href="">
+                            <dl>
+                                <dt>Debugging</dt>
+                                <dd>Series of programs curated by industry experts</dd>
+                            </dl>
+                        </a>
+                        <a href="">
+                            <dl>
+                                <dt>IDE</dt>
+                                <dd>Run and test your code in any language</dd>
+                            </dl>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav_dropDown nav_item">
+                    <button class="dropDown_btn">Resources<i class="fa fa-solid fa-caret-down"></i></button>
+                    <div class="dropDownContent">
+                        <ul style="list-style-type:none;">
+                            <li><a href="">Learn Hub</a></li>
+                            <li><a href="">Rewards</a></li>
+                            <li><a href="">Referral</a></li>
+                            <li><a href="">Forum Support</a></li>
+                            <li><a href="">Blogs</a></li>
+                            <li><a href="">App Download</a></li>
+                            <li><a href="">Become a affiliate</a></li>
+                        </ul>
+                    </div>
+                </div>
+            <div class="nav_item"><a href=""><i class="fa fa-solid fa-question"></i></a></div>
+            <div class="nav_item"><a href=""><i class="fa fa-solid fa-user"></i><i class="fa fa-solid fa-caret-down"></i></a></div>
+            </div>
+        </nav>
+        </header>
+    <div class="main">
+        <div class="contact">
+            <h1>Contact Us</h1>
+            <p class="contactText">Let us know your queries, feedbacks and enquiries. We are here to support you 24/7.</p>
+            <hr>
+            <div class="call">
+                <img src="./images/call.png" alt="">
+                <div class="text">
+                    <p class="grey">Give us a call</p>
+                    <p class="bold">+91 9736097320</p>
+                </div>
+            </div>
+            <hr>
+            <div class="mail">
+                <img src="./images/mail.png" alt="">
+                <div class="text">
+                    <p class="grey">Write to us</p>
+                    <p class="bold">cs@guvi.in</p>
+                </div>
+            </div>
+            <hr>
+            <div class="location">
+                <img src="./images/location.png" alt="">
+                <div class="text">
+                    <p class="grey">Visit us in Chennai @</p>
+                    <p class="bold">IITM Research park - phase 2, module #9, 3rd floor, D block, Kanagam Rd, Tharamani, Chennai, Tamil Nadu 600113</p>
+                    <p class="grey">Visit us in Noida @</p>
+                    <p class="bold">A11, HCL Corporation Pvt. Ltd, Block A, Sector 3, Noida, Uttar Pradesh 201307</p>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <h1 class="hello">Say <span style="color: #0ebb4c;">Hello !</span></h1>
+            <p class="helloText">Feel free to stop by and say hi !</p>
+            <form id="contactForm">
+              <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div>
+                <label for="contact">Contact Number</label>
+                <input type="text" id="contact" name="contact" required minlength="10" maxlength="10"/>
+              </div>
+              <div>
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required />
+              </div>
+              <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+              <button type="submit" class="submit">Send</button>
+            </form>
+            <p id="responseMessage"></p>
+        </div>
+    </div>
+    <footer>
+        <div class="footer1">
+            <div class="footer_flex">
+                <div class="item1">
+                    <ul>
+                        <li><b>Zen Class</b></li>
+                        <li><a href="">Full Stack Development</a></li>
+                        <li><a href="">Automation & Testing</a></li>
+                        <li><a href="">Data Science</a></li>
+                        <li><a href="">UI/UX</a></li>
+                        <li><a href="">DevOps</a></li>
+                        <li><a href="">Data Engineering</a></li>
+                        <li><a href="">Business Analytics with Digital Marketing</a></li>
+                        <li><a href="">All Programs</a></li>
+                    </ul>
+                </div>
+                <div class="item1">
+                    <ul>
+                        <li><b>Popular Courses</b></li>
+                        <li><a href="">Python - IITM Pravartak Certified</a></li>
+                        <li><a href="">Java</a></li>
+                        <li><a href="">Mobile Hacking</a></li>
+                        <li><a href="">C Programming</a></li>
+                        <li><a href="">AWS</a></li>
+                        <li><a href="">Angular</a></li>
+                        <li><a href="">Dark Web</a></li>
+                        <li><a href="">All Courses</a></li>
+                    </ul>
+                </div>
+                <div class="item1">
+                    <ul>
+                        <li><b>Self-Paced Courses</b></li>
+                        <li><a href="">Premium Pass</a></li>
+                        <li><a href="">Courses Library</a></li>
+                        <li><a href="">Free Library</a></li>
+                        <li><a href="">Combos</a></li>
+                        <li><b>Practice Platforms</b></li>
+                        <li><a href="">Codekata</a></li>
+                        <li><a href="">Webkata</a></li>
+                        <li><a href="">Debugging</a></li>
+                        <li><a href="">IDE</a></li>
+                    </ul>
+                </div>
+                <div class="item1">
+                    <ul>
+                        <li><b>Products</b></li>
+                        <li><a href="">HackerKid</a></li>
+                        <li><a href="">Placement Preparation</a></li>
+                        <li><a href="">GUVI for Corporates</a></li>
+                        <li><b>Resources</b></li>
+                        <li><a href="">Learn Hub</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Web Stores</a></li>
+                        <li><a href="">Forum</a></li>
+                        <li><a href="">Rewards</a></li>
+                        <li><a href="">Refer a friend</a></li>
+                        <li><a href="">Become an Affiliate</a></li>
+                    </ul>
+                </div>
+                <div class="item1">
+                    <ul>
+                        <li><b>Company</b></li>
+                        <li><a href="">Refund Policy</a></li>
+                        <li><a href="">FAQs</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="footer_flex2">
+                <div class="item2">
+                    <img src="./images/guviLogo2.png" alt="">
+                    <p>GUVI is an IIT-M & IIM-A incubated Ed-tech company that focuses on providing personalized learning solutions for its learners right from online learning, upskilling & recruitment opportunities in world-class quality. And, bestow tech-skills with the comfort of your native language.</p>
+                </div>
+                <div class="item3">
+                    <h4>Follow us on</h4>
+                    <div class="follow">
+                        <div class="row1">
+                            <a href=""><img src="./images/follow1.png" alt=""></a>
+                            <a href=""><img src="./images/follow2.png" alt=""></a>
+                            <a href=""><img src="./images/follow3.png" alt=""></a>
+                        </div>
+                        <div class="row1">
+                            <a href=""><img src="./images/follow4.png" alt=""></a>
+                            <a href=""><img src="./images/follow5.png" alt=""></a>
+                            <a href=""><img src="./images/follow6.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item4">
+                    <button class="refer_btn">Refer and Earn</button>
+                    <a href=""><img src="./images/googlePlay" alt=""></a>
+                </div>
+             </div>
+            <hr>
+            <div class="terms">
+                <p><a href="">Terms and Conditions</a></p>
+                <p><a href="">Privacy Policy</a></p>
+                <p><i class="fa fa-regular fa-copyright"></i></p>
+                <p>GUVI Geeks Network Pvt. Ltd.</p>
+            </div>
+        </div>
+        </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
